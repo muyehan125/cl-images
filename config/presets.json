@@ -103,5 +103,25 @@
     "scale": 9,
     "smea": false,
     "variety": false
+  },
+  "c_1777381071385": {
+    "name": "全能万用",
+    "suffix": " 4::masterpiece::, best quality::,1.7::artist:ssr_(azmr2828)::,1.5::artist:mignon::,0.8::artist:ask_(askzy)::,1.0::artist:machi_(machi0910)::,0.6::rei_(sanbonzakura)::,1.0::eteru::,1.2::starshadowmagician::,0.6::maccha_(mochancc)::,1.3::ugonba_(howatoro)::,0.9::betabeet::,year2024,year2025,newest,very aesthetic,-2::artist collaboration::,no text,",
+    "neg": "low quality, worst quality, bad quality, lowres, blurry, 1.5::floating particles::,noise, noisy, jpeg artifacts, compression artifacts, scan artifacts, error, glitch, damaged, chromatic aberration, artifacts, censored, (text:1.5), letters, title, language text, watermark, signature, username, artist name, bad anatomy, anatomical error, broken anatomy, bad proportions, deformed, disfigured, malformed, poorly drawn face, ugly face, bad face drawing, poorly drawn hands, bad hand drawing, ugly hands, poor hand details, extra fingers, missing fingers, fused fingers, incorrect number of fingers, extra limbs, missing limbs, disconnected limbs, fused body parts, extra toes, missing toes, incorrect number of toes, sketch, line art, unfinished, messy, ugly, bad art, artistic error, abstract,\n5::ugly, ugly face, bad face, poorly drawn face::, lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, negative space, blank page,lowres, jpeg artifacts, unfinished, scan, watermark, chromatic aberration, signature, username, artistic error, error, displeasing, very displeasing, abstract, deformed hands, deformed feet, distorted body, unnatural body, asymmetrical limbs, floating limbs, disconnected limbs, blood vessel, western woman, western face,error::",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 9,
+    "smea": false,
+    "variety": false
+  },
+  "c_1777381365496": {
+    "name": "细腻好用",
+    "suffix": "1.4::artist:da_mao_banlangen::,artist:iisan_(zvemsv420vuqzzb),1.5::artist:sincos::,1.8::artist:ruo_zhishi_chu_jian::,artist:ushikani_kassen,1.5::artist:qiandaiyiyu::,0.8::artist:ipuu_(el-ane_koubou)::,-2::artist collaboration::, {character}",
+    "neg": "{{{doll}}},{{{chibi}}},{{{toy}}},{{{animal}}},bad,bad anatomy,bad quality,worst quality,lowres,low quality,normal quality,error,extra,fewer,missing,{{many legs}},{{three legs}},{many arms},{three arms},{fuze},{grayscale},text,\nabstract,cropped,jpeg artifacts,watermark,username,bad hands,mutated hands,poorly drawn hands,extra arms,missing arms,extra legs,missing legs,bad fingers,extra fingers,too many fingers,missing fingers,strange fingers,bad feet,extra toes,fewer toes,extra digit,fewer digits,extra limbs,malformed limbs,long neck,cross-eyed,poorly drawn face,mutation,deformed,ugly,duplicate,morbid,mutilated,unfinished,chromatic aberration,artistic error,scan,",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 8,
+    "smea": false,
+    "variety": false
   }
 }
