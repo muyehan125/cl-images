@@ -1,0 +1,107 @@
+{
+  "anime": {
+    "name": "精致动漫",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{{{masterpiece}}}, {best quality}, amazing quality, very aesthetic, anime style, detailed",
+    "neg": "lowres, bad anatomy, bad hands, text, error, missing fingers, worst quality, low quality, jpeg artifacts, signature, watermark, blurry, poorly drawn, bad face, distorted face"
+  },
+  "glossy": {
+    "name": "清透润泽",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 6,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:luohuarumeng}, {artist:ciloranko}, clean style, soft lighting, {glossy skin}, {wet skin}, smooth skin, delicate features, {detailed eyes}, refined details, beautiful lighting, elegant",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dry skin, rough skin, matte skin, dirty, messy, gritty, dark theme"
+  },
+  "game": {
+    "name": "游戏立绘",
+    "sampler": "k_dpmpp_2m",
+    "steps": 28,
+    "scale": 7,
+    "noise": "native",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:lack}, {artist:rella}, {artist:neco}, official art, game cg, vibrant colors, high contrast, sharp lines, clean lineart, intricate details, dynamic, glossy",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, dull colors, muted colors, soft lines, sketchy, watercolor, painterly, messy background"
+  },
+  "tension": {
+    "name": "肢体张力",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6.5,
+    "noise": "karras",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:miazi}, detailed, high quality, {dynamic pose}, {glistening skin}, {sweat}, dramatic angle, expressive face, detailed anatomy, soft shading",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, stiff pose, static, flat lighting, dry skin, simple background"
+  },
+  "impasto": {
+    "name": "精致厚涂",
+    "sampler": "k_euler",
+    "steps": 28,
+    "scale": 7,
+    "noise": "karras",
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:ratatatat74}, detailed, high quality, {{{glistening skin}}}, {{sweat}}, {wet skin}, {oily skin}, {detailed skin}, [skin texture], {{dramatic lighting}}, {{high contrast}}, {volumetric light}, {rim lighting}, {warm lighting}, soft shading, {detailed background}",
+    "neg": "lowres, bad anatomy, bad hands, worst quality, low quality, blurry, poorly drawn, bad face, distorted face, flat lighting, flat shading, cel shading, simple shading, dry skin, matte skin, soft lighting, overexposed, washed out, sketch, lineart, outline"
+  },
+  "c_1777379042806": {
+    "name": "唯美清爽",
+    "suffix": "4::masterpiece, best quality ::, 2::official art, year2024, year2025 ::,2.25::Artist:youngjoo kjy ::,1.45::artist:nardack ::,1.25::Artist:rella ::,1.05::Artist:qiandaiyiyu ::,1.05::Artist:atdan ::,0.85::Artist:void_0 ::,0.65::Artist:stu_dts ::,0.75::Artist:wo_jiushi_kanbudong ::,0.75::Artist:nixeu ::,-3::3D ::,1.35::rim lighting, deep shadows,volumetric lighting,high contrast, cinematic lighting ::,no text,",
+    "neg": "worst quality,low quality,artist collaboration, bad anatomy,extra fingers,extra legs, missing legs, missing fingers, mutation, text, watermark, low resolution",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 9,
+    "smea": false,
+    "variety": false
+  },
+  "c_1777379189818": {
+    "name": "3D油腻",
+    "suffix": "5::best quality, absurdres, very aesthetic, detailed, masterpiece::, 1.2::misaka12003-gou ::, 0.8::dino(dinoartforame), wanke, liduke ::, year 2025, 2::realistic, 4k::, 2::Real skin radiance::,1.5::photorealistic::, 1.5::photo(medium)::, ::oily shiny skin ,Sexy ::",
+    "neg": "lowres, {bad}, error, fewer, extra, missing, worst quality, jpeg artifacts, bad quality, watermark, signature, extra digits, artistic error, username, scan, bad anatomy, bad hands, bad feet, extra fingers, missing fingers, fused fingers, too many fingers, long neck, cross-eyed, asymmetrical eyes, disfigured, malformed limbs, extra limbs, missing limbs, polar lowres, bad proportions, multiple people, back to the viewer",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 9,
+    "smea": false,
+    "variety": false
+  },
+  "c_1777379429468": {
+    "name": "质感3D",
+    "suffix": "5::masterpiece, best quality ::, 3.65::3D, realistic, photorealistic ::,2.25::Artist:bm94199 ::,1.85::Artist:yueko (jiayue wu) ::,1.35::Artist:ruanjia ::,1.35::Artist:wo_jiushi_kanbudong ::,1.05::artist:seven_(sixplusone) ::,1.05::Artist:slash (slash-soft) ::,0.85::Artist:shal.e ::,0.75::Artist:nixeu ::,0.55::Artist:billyhhyb ::,-5::2D ::,-1::vivid::, year2025, cinematic , 0.9::lighting, volumetric lighting, no text, realistic, photo, real, artbook ::, 0.2::monochrome ::, 1.2::small eyes ::, 0.8::clean, normal ::,          ",
+    "neg": "worst quality,low quality,artist collaboration, bad anatomy,extra fingers,extra legs, missing legs, missing fingers, mutation, text, watermark, low resolution",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 9,
+    "smea": false,
+    "variety": false
+  },
+  "c_1777379548616": {
+    "name": "浓密阴毛",
+    "suffix": "15::best quality,high quality,ultra-detailed,absurdres, very aesthetic, detailed, masterpiece::, 1.2::8k,4k,highres::, 1.3::hyperdetailed skin, highly detailed skin::, 1.3::intricate details, finely detailed features, illustration::, 0.7::realistic skin texture::, 1.1::detailed eyes, detailed face::, 2.5::highly detailed texture, sharp focus, perfect anatomy::,0.5::official art::,year2024, year2025,detailed background,dynamic pose, 1.5::Artist:zhang xiaobai::, 0.7::Artist:96yottea,wlop::, 0.3::Artist:au (d elete)::, 1.7::Artist:akihare::, 2.4:: artist: Takeda Hiromitsu 2.1:: Artist: Mizuryu Kei:,1.93::no text,5:: artist: Tanishi::,full body,beautiful_detailed_eyes,excessive pubic hair,uncensored,",
+    "neg": "worst quality,low quality,artist collaboration, bad anatomy,extra fingers,extra legs, missing legs, missing fingers, mutation, text, watermark, low resolution",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 9,
+    "smea": false,
+    "variety": false
+  },
+  "c_1777380038089": {
+    "name": "色情油腻",
+    "suffix": "8k, best quality, masterpiece, realistic, ultra detailed, nsfw, 1::ulrich_(tagaragakuin)::, 2:wlop::, 1.2::misaka_12003-gou,lexaiduer,kakumayu::, 1.1::kimhyungtae, qiandaiyiyu, polki::, 0.9::fei(maidoll)::, 1::xe(execut3r)::, 1::piyopoyo::, 1::RioAkag::, 1::hisasi::, 1::pyon_Kti::, 1.25::dishwasher1910 ::, 1.75::yu_lei::, 1.55::kyariko::, 0.25::meion::, 0.55::aoisakura(seak5545)::, 1.15::rebun::, no text, year 2025, oily shiny skin, best quality ::,extremely detailed CG unity 8k wallpaper, {character}",
+    "neg": "unfinished,dolls,toys,posters,photos,chibi,lowres,film grain,scan artifacts,worst quality,bad quality,jpeg artifacts,watermark,very displeasing,chromatic aberration,halftone,multiple views,logo,too many watermarks,negative space,blank page,blurry,lowres,error,film grain, scan artifacts,worst quality,chromatic aberration,multiple views,logo,{bad}, bad anatomy,bad hands,error,missing finger,extra digits,fewer digits,cropped,artist name,bad face,fat,duplicate,mutation,deformed,disfigured,extra arms,extra legs,extra limbs,extra finger,too many finger,too many tail,extra tail,long neck,bad feet,bad proportions,tail from side, tail from hip, tail on thigh, floating tail, detached tail, bad anatomy, prolapse,",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 9,
+    "smea": false,
+    "variety": false
+  }
+}
